@@ -1,0 +1,28 @@
+python -m venv myenv
+##for creating venc in respective folder
+
+##to activate venv
+myenv\Scripts\activate
+
+## to install django 
+pip install django
+
+## to create django project
+django-admin startproject name_of_the_project
+
+
+##to start development server
+python manage.py runserver
+
+##to create an app//some pip point functionality we create an app
+python manage.py startapp emp_
+## here emp_is the name of the app
+
+## to craete migrations
+python manage.py makemigrations
+## to migrate to store in database permanently
+python manage.py migrate
+
+## to create super_user 
+python manage.py createsuperuser
+## example 
